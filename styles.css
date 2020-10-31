@@ -181,3 +181,32 @@ ul li a:hover{
     border-radius: 5px;
     padding: 10px 20px;
 } 
+
+/*STORIES*/
+.stories{
+    grid-area: "row4";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.stories img{
+    float: left;
+    border-radius: 50%;
+    padding: 10px;
+}
+.stories >.container{
+    display: grid;
+    grid-column-start: auto;
+    grid-template-columns: 800px;
+    grid-template-rows: 10px 300px;
+    grid-gap: 50px; 
+}
+.stories .h2{
+    color: #5a67d8;
+}
+.stories .a{
+    color: #5a67d8;
+}
+.stories .h3{
+    font-size: 18px;
+}
