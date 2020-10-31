@@ -147,3 +147,37 @@ ul li a:hover{
     padding: 5px;
     font-size: 20px;
 }
+
+/*TESTING*/
+.testing{
+    grid-area: "row3";
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #4a5568;
+    color: #ffffff;
+}
+.testing >.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.testing-desciption{
+    float: left;
+    margin: auto 0;
+    width: 60%;
+}
+.cta {
+    text-align: center;
+    padding: 10px;
+    margin: auto 0 auto 0;
+    width: fit-content;
+    height: fit-content;
+}
+.cta .btn{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #48bb78;
+    border-radius: 5px;
+    padding: 10px 20px;
+} 
