@@ -98,4 +98,17 @@ ul li a{
 ul li a:hover{
     color: #5a67d8;
 }
+.overview-hero >.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overview-hero-image{
+    float: left;
+}
 
+.overview-hero{
+    display: block;
+    grid-area: "row1";
+    background-color: #e2e8f0;
+}
