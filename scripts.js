@@ -9,7 +9,7 @@ var mystarter = function(){
         if (e == null){
            msg = 'Please enter a valid email address';
         }else{
-            msg = ("Thank you, your email address " +  e  + 'has been added to our mailing list')
+            msg = ("Thank you, your email address " +  e  + ' has been added to our mailing list.')
         }
         message.innerHTML = msg;
         return false;
