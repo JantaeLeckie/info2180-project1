@@ -6,7 +6,7 @@ var mystarter = function(){
     document.getElementsByClassName("btn")[1].addEventListener('click', function(event){
         var e = document.getElementById("email").value;
         event.preventDefault();
-        if (e == null){
+        if (e === ''){
            msg = 'Please enter a valid email address';
         }else{
             msg = ("Thank you, your email address " +  e  + ' has been added to our mailing list.')
