@@ -1,5 +1,5 @@
 /* Add your JavaScript to this file */
-
+/*edited*/
 var mystarter = function(){
     var message = document.getElementsByClassName("message")[0];
     let msg = '';
